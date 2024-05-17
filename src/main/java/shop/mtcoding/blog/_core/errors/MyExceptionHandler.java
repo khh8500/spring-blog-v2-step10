@@ -9,7 +9,7 @@ import shop.mtcoding.blog._core.errors.exception.*;
 import shop.mtcoding.blog._core.utils.ApiUtil;
 
 // RuntimeException이 터지면 해당 파일로 오류가 모인다
-@Slf4j // 로그를 남길 수 있다
+@Slf4j
 @RestControllerAdvice // 데이터 응답
 public class MyExceptionHandler {
 
